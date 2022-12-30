@@ -1,5 +1,25 @@
 # Changelog
 
+## [7.7.0](https://github.com/folke/lazy.nvim/compare/v7.6.0...v7.7.0) (2022-12-30)
+
+
+### Features
+
+* **ui:** make brower configurable. Fixes [#248](https://github.com/folke/lazy.nvim/issues/248) ([679d85c](https://github.com/folke/lazy.nvim/commit/679d85c9ffb6bd49d27267b3a282eeb73e063cde))
+
+
+### Bug Fixes
+
+* **bootstrap:** fixed bootstrap script ([de82a99](https://github.com/folke/lazy.nvim/commit/de82a991971d20cfaaeb0d86802283e2ac4a4574))
+* duplicate state check in bootstrap ([#255](https://github.com/folke/lazy.nvim/issues/255)) ([51fb95e](https://github.com/folke/lazy.nvim/commit/51fb95e4a89743670eb2ba710bcdb0e91834c3d4))
+* **keys:** forward `count` to keymaps. Fixes [#252](https://github.com/folke/lazy.nvim/issues/252) ([a834b30](https://github.com/folke/lazy.nvim/commit/a834b30c70581e505d8dd62d9c6f9de6a6eba868))
+* **ui:** only show plugins to clean under clean ([45d669f](https://github.com/folke/lazy.nvim/commit/45d669f61c8fc239712e794e1e2c5af1f737ee0a))
+
+
+### Performance Improvements
+
+* **loader:** re-use topmod cache to find `setup()` module ([730bb84](https://github.com/folke/lazy.nvim/commit/730bb84364afee156ad1dde03fc30de3d96af63a))
+
 ## [7.6.0](https://github.com/folke/lazy.nvim/compare/v7.5.0...v7.6.0) (2022-12-30)
 
 
